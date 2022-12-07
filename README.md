@@ -17,5 +17,5 @@ npx hardhat run scripts/deploy-erc20.js --network alfajores
 
 ```shell
 yarn add @openzeppelin/contracts
-yarn add --dev hardhat-celo dotenv @openzeppelin/hardhat-upgrades
+yarn add --dev hardhat hardhat-celo dotenv @openzeppelin/hardhat-upgrades @nomicfoundation/hardhat-toolbox @nomicfoundation/hardhat-network-helpers @nomicfoundation/hardhat-chai-matchers @nomiclabs/hardhat-ethers @nomiclabs/hardhat-etherscan chai ethers hardhat-gas-reporter solidity-coverage @typechain/hardhat typechain @typechain/ethers-v5 @ethersproject/abi @ethersproject/providers
 ```
